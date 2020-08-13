@@ -1,2 +1,4 @@
+.env
+.k8s
 .vscode
 node_modules
