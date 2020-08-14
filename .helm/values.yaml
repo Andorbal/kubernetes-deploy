@@ -1,3 +1,5 @@
 frontend:
   service:
     port: 30987
+redis:
+  usePassword: false

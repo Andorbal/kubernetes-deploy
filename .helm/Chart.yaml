@@ -4,3 +4,7 @@ appVersion: "1.0.9"
 description: "A simple node app"
 version: 0.2.0
 type: application
+dependencies:
+  - name: redis
+    repository: https://charts.bitnami.com/bitnami
+    version: 10.7.16

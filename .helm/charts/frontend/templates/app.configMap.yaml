@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: {{.Release.Name}}-{{.Chart.Name}}
 data:
-  redis_host: {{.Release.Name}}-redis-svc
+  redis_host: {{.Release.Name}}-redis-master
   web_port: "80"
