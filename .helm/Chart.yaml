@@ -1,6 +1,6 @@
 apiVersion: v2
 name: my-node-app
-appVersion: "1.0.8"
+appVersion: "1.0.9"
 description: "A simple node app"
 version: 0.1.0
 type: application

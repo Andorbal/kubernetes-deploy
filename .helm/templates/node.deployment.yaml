@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: node-app:1.0.8
+        image: node-app:1.0.9
         imagePullPolicy: Never
         resources:
           limits:
