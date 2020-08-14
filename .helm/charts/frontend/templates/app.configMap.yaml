@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: myapp
+  name: {{.Release.Name}}-{{.Chart.Name}}
 data:
-  redis_host: redis-cache
+  redis_host: {{.Release.Name}}-redis-svc
   web_port: "80"
