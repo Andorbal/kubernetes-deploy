@@ -1,0 +1,6 @@
+apiVersion: v2
+name: my-node-app-frontend
+appVersion: "1.0.9"
+description: "Frontend application for the node app"
+version: 0.1.0
+type: application
